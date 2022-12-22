@@ -19,6 +19,6 @@ let num = [1, -4, 12, 0, -3, 29, -150];
 
 // return only positive num or []
 let positive = num.filter( n => n > 0 ); 
-let r = positive.reduce( (sum, n) =>  sum+n, 0 )
+let r2 = positive.reduce( (sum, n) =>  sum+n, 0 )
 
-console.log(r);
+console.log(r2);
