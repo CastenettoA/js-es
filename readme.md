@@ -1,6 +1,5 @@
 # A public repos of my solved Js Exercise.
-Is a just-for-fun practice to prepare for my future work.
-
+Is a just-for-fun practice to improve my javascript & typescript skills
 ### Exercises credits
 * https://roadmap.sh/javascript
 * https://javascript.info/object-methods#tasks
