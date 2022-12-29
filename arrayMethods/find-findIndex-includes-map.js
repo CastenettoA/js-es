@@ -59,5 +59,14 @@ console.log('(6) how much apples? ', apples.quantity)
  * (7) same as es. n. 6 but using arrow function and destructuring
  */
 
+const findApples_arr = fruit => fruit.name == "apples";
+let { name: fruitName, quantity: q } = fruit_inventory.find(findApples_arr)
+console.log('(7)', fruitName, q)
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+/**
+ * (7.2) same as es. n. 6 but using arrow function and destructuring
+ */
+
+const fruit_result = fruit_inventory.find(({name: n}) => n === 'cherries');
+console.log('(7.2)', fruit_result)
+
